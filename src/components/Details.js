@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {ProductConsumer, ProductProvider} from '../context';
+import {ProductConsumer} from '../context';
 import {Link} from 'react-router-dom'
 import {ButtonContainer} from "./Button"
 

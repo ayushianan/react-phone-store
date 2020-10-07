@@ -22,12 +22,26 @@ class Navbar extends Component {
                        </Link>
                    </li>
                </ul>
+               <ul className="navbar-nav align-items-center">
+                   <li className="nav-item ml-5">
+                       <Link to="/" className="nav-link">
+                           products1
+                       </Link>
+                   </li>
+               </ul>
                <Link to="/cart" className="ml-auto">
                    <ButtonContainer>
                     <span className="mr-2">
                        <i className="fas fa-cart-plus"/>
                        </span>
                        my cart
+                   </ButtonContainer>
+               </Link>
+               <Link to="/form" className="ml-auto">
+                   <ButtonContainer>
+                    <span className="mr-2">
+                       </span>
+                       Feedback Form
                    </ButtonContainer>
                </Link>
             </NavWrapper>
